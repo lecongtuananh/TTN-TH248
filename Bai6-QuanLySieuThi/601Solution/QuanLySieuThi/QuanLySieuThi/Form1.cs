@@ -16,5 +16,21 @@ namespace QuanLySieuThi
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmQuanLySieuThi frm = new frmQuanLySieuThi();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmHuongDan frm = new frmHuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
     }
 }
