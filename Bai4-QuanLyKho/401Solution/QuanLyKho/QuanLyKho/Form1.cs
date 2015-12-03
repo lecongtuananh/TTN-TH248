@@ -8,13 +8,44 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyKho
+namespace QUANLYKHOTTN
 {
-    public partial class frm_Start : Form
+    public partial class Form1 : Form
     {
-        public frm_Start()
+        public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butLogIn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butLogOut_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void butHuongDan_Click(object sender, EventArgs e)
+        {
+            frmHuongDan frm = new frmHuongDan();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+
+        private void butQuanLyKho_Click(object sender, EventArgs e)
+        {
+            frmQuanLyKho frm = new frmQuanLyKho();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
     }
 }

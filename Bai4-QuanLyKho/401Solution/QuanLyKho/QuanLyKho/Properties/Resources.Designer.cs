@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuanLyKho.Properties {
+namespace QUANLYKHOTTN.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace QuanLyKho.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("QuanLyKho.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("QUANLYKHOTTN.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,19 @@ namespace QuanLyKho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap QLKho {
+        internal static System.Drawing.Bitmap Box {
             get {
-                object obj = ResourceManager.GetObject("QLKho", resourceCulture);
+                object obj = ResourceManager.GetObject("Box", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap guide {
+            get {
+                object obj = ResourceManager.GetObject("guide", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
